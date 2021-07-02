@@ -293,8 +293,8 @@ choco install everything --yes
 choco install notepadplusplus --yes
 
 choco install virtualbox virtualbox-guest-additions-guest.install --yes
-
-
+choco install visualstudio2019professional --yes
+choco install ssms --yes
 
 
 Update-Environment-Path
