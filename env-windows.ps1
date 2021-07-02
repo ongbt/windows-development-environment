@@ -292,6 +292,11 @@ choco install firacode --yes # See https://www.youtube.com/watch?v=KI6m_B1f8jc
 choco install everything --yes
 choco install notepadplusplus --yes
 
+choco install virtualbox virtualbox-guest-additions-guest.install --yes
+
+
+
+
 Update-Environment-Path
 
 # Windows Subsystem for Linux
@@ -302,3 +307,6 @@ wsl --set-default-version 2
 Start-Process https://aka.ms/wslstore
 
 Write-Output "Finished! Run `choco upgrade all` to get the latest software"
+
+
+# https://unicorn-utterances.com/posts/ultimate-windows-development-environment-guide/
