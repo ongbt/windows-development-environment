@@ -248,6 +248,7 @@ choco install mysql.workbench --yes
 # 
 
 choco install androidstudio --yes
+choco install flutter --yes
 
 #
 # Static Site Generators
@@ -289,6 +290,7 @@ choco install procexp --yes
 choco install awscli --yes
 choco install firacode --yes # See https://www.youtube.com/watch?v=KI6m_B1f8jc
 choco install everything --yes
+choco install notepadplusplus --yes
 
 Update-Environment-Path
 
