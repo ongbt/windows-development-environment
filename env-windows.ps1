@@ -292,7 +292,8 @@ choco install firacode --yes # See https://www.youtube.com/watch?v=KI6m_B1f8jc
 choco install everything --yes
 choco install notepadplusplus --yes
 
-choco install virtualbox virtualbox-guest-additions-guest.install --yes
+choco install virtualbox --yes
+#  virtualbox-guest-additions-guest.install  caused HID driver to fail cause it's not signed
 choco install visualstudio2019professional --yes
 choco install ssms --yes
 
