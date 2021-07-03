@@ -40,7 +40,7 @@ Get-Command -Module Microsoft.PowerShell.Archive
 #
 
 choco install git --yes --params '/GitAndUnixToolsOnPath'
-choco install tortoisegit --yes
+# choco install tortoisegit --yes
 Update-Environment-Path
 
 git config --global core.editor "code --wait"
@@ -71,9 +71,10 @@ choco install cascadiamonopl --yes
 Write-Output 'Be sure to configure Windows Terminal fonts! Suggest using "fontFace": "Cascadia Code PL"'
 
 #
-# AWS awscli
+# Cloud Azure/AWS awscli
 #
-choco install awscli --yes
+#choco install awscli --yes
+choco install azure-cli --yes
 Update-Environment-Path
 
 #
@@ -92,15 +93,15 @@ Update-Environment-Path
 # Caddy HTTP Server
 #
 
-choco install caddy --yes
+#choco install caddy --yes
 Update-Environment-Path
 
 #
 # Languages
 #
-choco install php --yes
-choco install ruby --yes
-choco install ruby2.devkit --yes
+#choco install php --yes
+#choco install ruby --yes
+#choco install ruby2.devkit --yes
 choco install jdk8 --yes
 Update-Environment-Path
 
@@ -144,9 +145,9 @@ choco install docker-for-windows --yes
 
 Update-Environment-Path
 
-docker pull worpress
+#docker pull worpress
 docker pull mysql
-docker pull phpmyadmin
+#docker pull phpmyadmin
 
 Update-Environment-Path
 
@@ -233,13 +234,13 @@ code --install-extension ms-vscode.PowerShell
 code --install-extension ms-vscode.csharp
 
 # PHP support
-code --install-extension HvyIndustries.crane
+#code --install-extension HvyIndustries.crane
 
 # Ruby support
-code --install-extension rebornix.Ruby
+#code --install-extension rebornix.Ruby
 
 # C++ support
-code --install-extension ms-vscode.cpptools
+#code --install-extension ms-vscode.cpptools
 
 # HTML, CSS, JavaScript support
 code --install-extension Zignd.html-css-class-completion
@@ -316,7 +317,7 @@ choco install microsoft-windows-terminal --yes
 choco install beyondcompare --yes
 choco install 7zip --yes
 choco install filezilla --yes
-choco install dropbox --yes
+#choco install dropbox --yes
 
 # Media Viewers
 choco install irfanview --yes
@@ -324,12 +325,11 @@ choco install vlc --yes
 
 # Browsers
 choco install googlechrome --yes
-choco install firefox --yes
+#choco install firefox --yes
 
 # Misc
 choco install sysinternals --yes
-choco install procexp --yes
-choco install awscli --yes
+choco install procexp --yes 
 choco install firacode --yes # See https://www.youtube.com/watch?v=KI6m_B1f8jc
 choco install everything --yes
 choco install notepadplusplus --yes
