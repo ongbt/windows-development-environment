@@ -182,6 +182,48 @@ code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension eamodio.gitlens
 code --install-extension oderwat.indent-rainbow
 code --install-extension sdras.night-owl
+
+code --install-extension alexcvzz.vscode-sqlite
+code --install-extension Angular.ng-template
+code --install-extension bmlsolutions.dotuml
+code --install-extension danwahlin.angular2-snippets
+code --install-extension Dart-Code.dart-code
+code --install-extension Dart-Code.flutter
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eamodio.gitlens
+code --install-extension EditorConfig.EditorConfig
+code --install-extension eg2.vscode-npm-script
+code --install-extension esbenp.prettier-vscode
+code --install-extension johnpapa.angular-essentials
+code --install-extension johnpapa.Angular2
+code --install-extension johnpapa.vscode-peacock
+code --install-extension johnpapa.winteriscoming
+code --install-extension josephcz.vscode-markdown-mindmap-preview
+code --install-extension mr-josh.vsnomnoml
+code --install-extension ms-azuretools.vscode-azureappservice
+code --install-extension ms-azuretools.vscode-azurefunctions
+code --install-extension ms-azuretools.vscode-azureresourcegroups
+code --install-extension ms-azuretools.vscode-azurestorage
+code --install-extension ms-dotnettools.csharp
+code --install-extension ms-dotnettools.dotnet-interactive-vscode
+code --install-extension ms-dotnettools.vscode-dotnet-runtime
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension ms-vscode.azure-account
+code --install-extension ms-vscode.powershell
+code --install-extension ms-vscode.vscode-typescript-next
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension msjsdiag.debugger-for-edge
+code --install-extension nrwl.angular-console
+code --install-extension PKief.material-icon-theme
+code --install-extension rangav.vscode-thunder-client
+code --install-extension ritwickdey.live-sass
+code --install-extension ritwickdey.LiveServer
+code --install-extension tomoyukim.vscode-mermaid-editor
+code --install-extension Wscats.eno
+code --install-extension yzhang.markdown-all-in-one
+
 Start-Process https://github.com/sdras/night-owl-vscode-theme
 
 # PowerShell support
