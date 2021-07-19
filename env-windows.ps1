@@ -340,6 +340,7 @@ choco install virtualbox --yes
 choco install visualstudio2019professional --yes
 choco install ssms --yes
 choco install drawio
+choco install pencil
 
 Update-Environment-Path
 
