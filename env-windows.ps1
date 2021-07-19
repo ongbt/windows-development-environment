@@ -224,6 +224,7 @@ code --install-extension ritwickdey.LiveServer
 code --install-extension tomoyukim.vscode-mermaid-editor
 code --install-extension Wscats.eno
 code --install-extension yzhang.markdown-all-in-one
+choco install vscode-drawio
 
 Start-Process https://github.com/sdras/night-owl-vscode-theme
 
@@ -338,7 +339,7 @@ choco install virtualbox --yes
 #  virtualbox-guest-additions-guest.install  caused HID driver to fail cause it's not signed
 choco install visualstudio2019professional --yes
 choco install ssms --yes
-
+choco install drawio
 
 Update-Environment-Path
 
