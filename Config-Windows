@@ -11,6 +11,11 @@ git config --global mergetool.vscode.cmd 'code --wait $MERGED'
 
 ## Config path: %USERPROFILE%\.gitconfig
 
+# VS Code
+# https://241931348f64b1d1.wordpress.com/2016/07/22/how-to-use-portable-visual-studio-code-and-git/
+"git.path": "C:\\Programs\\PortableGit\\cmd\\git.exe"
+
+
 # NPM
 1. Go Control Panel\All Control Panel Items\User Accounts
 2. Add Path: %APPDATA%\npm
