@@ -99,17 +99,18 @@ print(tf.test.is_built_with_cuda())
    - output: True
 
 
+# Anaconda Enterprise
+Request from DDO and follow instructions given
 
 
-
-Jupyter:
+# Jupyter:
  - Install Jupyter: pip install ipykernel
  - Configure: python -m ipykernel install --user --name tensor-keras-gpu --display-name "tensor-keras-gpu"
  - pip install notebook
  - Open Jupyter Notebook: cmd: jupyter notebook
      
 
-Other Libs:
+# Other Libs:
 - conda install matplotlib
 - conda install pandas
 - conda install scikit-learn
@@ -120,7 +121,7 @@ Other Libs:
 
 
 
-Ref:
+# Ref:
 https://stackoverflow.com/questions/65273118/why-is-tensorflow-not-recognizing-my-gpu-after-conda-install
 https://github.com/ContinuumIO/anaconda-issues/issues/12194#issuecomment-751700156 (refer for tensor install cmd)
 https://medium.com/@martin.berger/how-to-setup-gpu-accelerated-tensorflow-keras-on-windows-10-with-anaconda-3-bf844a720aa3 (refer for verification cmd)
