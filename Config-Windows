@@ -9,6 +9,8 @@ git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
 git config --global merge.tool vscode
 git config --global mergetool.vscode.cmd 'code --wait $MERGED'
 
+If prompted, select manager-core for authentication
+
 ## Config path: %USERPROFILE%\.gitconfig
 
 # VS Code
